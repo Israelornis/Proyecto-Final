@@ -1,6 +1,6 @@
 # Resumen
 
-* ### Israel Moreno-Contreras*
+## Israel Moreno-Contreras
 #### Ornitología, Facultad de Ciencias, UNAM
 
 
