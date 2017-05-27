@@ -4,16 +4,20 @@
 Passeroidea es un grupo monofilético de aves passerinas (Orden Passeriformes), el cual se encuentra dentro del clado Passerida (la radiación de aves passerinas más reciente). El clado Passeroidea se caracteriza principalmente debido a su tamaño ya que contiene apróximadamente 20 familias y 1500 especies. Las relaciones dentro del clado son bastante inciertas dado que análisis empleando genes puntuales dan topologías completamente distintas (Selvatti et al. 2015). 
 
 En este proyecto se tienen dos objetivos principales:
-   + Ensamblar mitogenomas de *novo* con base en datos obtenidos de secuenciación másiva de la plataforma Illumina, por 
-     ejemplo elementos ultra conservados (UCEs).
+   + Ensamblar mitogenomas de *novo* con base en datos obtenidos de secuenciación másiva de la plataforma Illumina, 
+     elementos ultra conservados (UCEs).
    + Obtener una filogenia y una red filogenética de los mitogenomas ensamblados y de los mitogenomas disponibles en bases de datos 
      correspondientes a los linajes principales de Passeroidea.
 
 ### Métodos
-Como referencia para la construcción de mitogenomas *de novo*, yo utilicé secuencias previamente publicadas de obtenidas por el método de secuenciación másiva de la plataforma Illumina, específicamente elementos ultra conservados (UCEs) analizados en detalle por Bryson et al. (2016) y disponibles en GenBank (BioProject PRJNA318526, https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP073341). Para la construccion de mitogenomas empleé como caso de estudio sólo tres archivos "fastq" correspondientes a los datos UCEs de las especies *Arremon brunneinucha*, *Arremon citirnellus* y *Amphispiza belli* (ahora *Artemisiospiza belli*)
+Como referencia para la construcción de mitogenomas *de novo*, yo utilicé secuencias previamente publicadas de obtenidas por el método de secuenciación másiva de la plataforma Illumina, específicamente elementos ultra conservados (UCEs) analizados en detalle por Bryson et al. (2016) y disponibles en GenBank (BioProject SRP073341 , https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP073341). Para la construccion de mitogenomas empleé como caso de estudio sólo tres archivos "fastq" correspondientes a los datos UCEs de las especies *Arremon brunneinucha* (no. acceso SRX1705981), *Atlapetes citirnellus* (no. acceso ) y *Amphispiza belli* (ahora *Artemisiospiza belli*)
 
 Los mitogenomas fueron primeramente rotados con el algortimo CSA (Fernandes et al. 2009) para una mejor detección de señal filogenética y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
 El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados.
+Inline-style: 
+![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Mitogenomas-Blocks.bmp "Logo Title Text 1")
+
+
 
 Anteriormente (ver Avances 1 y 2) yo estaba interesado en hacer análsis de genética de poblaciones usando los datos genómicos (ddRAD) de *Ammodramus nelsoni* y *Ammodramus caudacutus* de Walsh et al. (2017) disponibles en Dryad. No obstante despues de una revisión en el material suplementario y en el repositorio de Dryad no se encuentran disponibles los barcode, esenciales para los análisis en el programa bioinformático Ipyrad. Bajo esta premisa, decidí cambiar de datos empleando los datos genómicos del género *Piranga*  (RAD-seq) de Manthey et al. (2016), enfocandome en análisis de filogenómica y ya no de genética de poblaciones.
 He tenido algunos problemas con los datos, pero el lunes me quede de ver con Azalea para ver que es lo que está fallando. Espero resolverlo para mediados de la próxima semana.
