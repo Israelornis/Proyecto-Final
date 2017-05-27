@@ -1,8 +1,9 @@
 # Resumen
 
-### Israel Moreno-Contreras*°
-*Ornitología, Facultad de Ciencias, UNAM
-°Departamento de Ciencias Químico-Biológicas, UACJ
+### Israel Moreno-Contreras*
+#### Ornitología, Facultad de Ciencias, UNAM
+#### Sistemática, Posgrado en Ciencias Biológicas, UNAM
+
 
 ## Ensamblaje *de novo* de mitogenomas y analisis filogenómico del clado Passeroidea (Aves: Passeriformes)
 Passeroidea es un grupo monofilético de aves passerinas (Orden Passeriformes), el cual se encuentra dentro del clado Passerida (la radiación de aves passerinas más reciente). El clado Passeroidea se caracteriza principalmente debido a su tamaño ya que contiene apróximadamente 20 familias y 1500 especies. Las relaciones dentro del clado son bastante inciertas dado que análisis empleando genes puntuales dan topologías completamente distintas (Selvatti et al. 2015). 
