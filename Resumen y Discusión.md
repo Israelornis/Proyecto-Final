@@ -21,6 +21,8 @@ He tenido algunos problemas con los datos, pero el lunes me quede de ver con Aza
 
 ### Artículos leídos
 
++ Gibb, G.C., O. Kardailsky, R.T. Kimball, E.L. Braun y D. Penny. 2007. Mitochondrial Genomes and Avian Phylogeny: Complex Characters and Resolvability without Explosive Radiations. Molecular Biology and Evolution 24(1):269-280. https://doi.org/10.1093/molbev/msl158
+
 + Dierickx, E.G., A.J. Shultz, F. Sato, T. Hiraoka T y S.V. Edwards SV. 2015. Morphological and genomic comparisons of Hawaiian and Japanese Black-footed Albatrosses (*Phoebastria nigripes*) using double digest RADseq: implications for conservation. Evolutionary Applications 8(7): 662-678. http://dx.doi.org/10.1111/eva.12274
 
 + Friis, G., P. Aleixandre, R. Rodríguez-Estrella, A.G. Navarro-Sigüenza y Borja Milá. 2016. Rapid postglacial diversification and long-term stasis within the songbird genus *Junco*: phylogeographic and phylogenomic evidence. Molecular Ecology 25(24): 6175-6195. http://dx.doi.org/10.1111/mec.13911
