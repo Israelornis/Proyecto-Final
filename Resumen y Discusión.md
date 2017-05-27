@@ -10,7 +10,7 @@ En este proyecto se tienen dos objetivos principales:
      correspondientes a los linajes principales de Passeroidea.
 
 ### Métodos
-Los mitogenomas fueron primeramente rotados con el algortimo CSA para una mejor detección de señal filogenética (Fernandes et al. 2009) y posteriormenten alineados en MAFFT.
+Los mitogenomas fueron primeramente rotados con el algortimo CSA para una mejor detección de señal filogenética (Fernandes et al. 2009) y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
 Anteriormente (ver Avances 1 y 2) yo estaba interesado en hacer análsis de genética de poblaciones usando los datos genómicos (ddRAD) de *Ammodramus nelsoni* y *Ammodramus caudacutus* de Walsh et al. (2017) disponibles en Dryad. No obstante despues de una revisión en el material suplementario y en el repositorio de Dryad no se encuentran disponibles los barcode, esenciales para los análisis en el programa bioinformático Ipyrad. Bajo esta premisa, decidí cambiar de datos empleando los datos genómicos del género *Piranga*  (RAD-seq) de Manthey et al. (2016), enfocandome en análisis de filogenómica y ya no de genética de poblaciones.
 He tenido algunos problemas con los datos, pero el lunes me quede de ver con Azalea para ver que es lo que está fallando. Espero resolverlo para mediados de la próxima semana.
 
@@ -30,7 +30,10 @@ He tenido algunos problemas con los datos, pero el lunes me quede de ver con Aza
 ### Artículos leídos
 
 + Fernandes, F., L. Pereira y A.T. Freitas. 2009. CSA: An efficient algorithm to improve circular DNA multiple alignment. BMC Bioinformatics 10:230.  https://doi.org/10.1186/1471-2105-10-230
+
 + Gibb, G.C., O. Kardailsky, R.T. Kimball, E.L. Braun y D. Penny. 2007. Mitochondrial Genomes and Avian Phylogeny: Complex Characters and Resolvability without Explosive Radiations. Molecular Biology and Evolution 24(1):269-280. https://doi.org/10.1093/molbev/msl158
+
++ Katoh, K. y D.M. Standley. 2013. MAAFT Multiple Alignment Software Version 7: Improvements in Performance and Usability. Molecular Biology and Evolution 30(4):772-780. https://doi.org/10.1093/molbev/mst010
 
 + Selvatti, A.P., L.P. Gonzaga y C.A. Russo. 2015. A Paleogene origin for crown passerines and the diversification of the Oscines in the New World. Molecular Phylogenetics and Evolution 88:1–15. https://doi.org/10.1016/j.ympev.2015.03.018
 
