@@ -5,7 +5,7 @@
 
 
 ## Ensamblaje *de novo* de mitogenomas y analisis filogenómico del clado Passeroidea (Aves: Passeriformes)
-Passeroidea es un grupo monofilético de aves passerinas (Orden Passeriformes), el cual se encuentra dentro del clado Passerida (la radiación de aves passerinas más reciente). El clado Passeroidea se caracteriza principalmente debido a su tamaño ya que contiene apróximadamente 20 familias y 1500 especies. Las relaciones dentro del clado son bastante inciertas dado que análisis empleando genes puntuales dan topologías completamente distintas (Selvatti et al. 2015). 
+Passeroidea es un grupo monofilético de aves passerinas (Orden Passeriformes), el cual se encuentra dentro del clado Passerida (la radiación de aves passerinas más reciente). El clado Passeroidea está constituido por miembros de la familia Estrildidae, Cardinalidae, Icteridae, entre otros; y se caracteriza principalmente debido a su tamaño ya que contiene apróximadamente 20 familias y 1500 especies (dependiendo de la autoridad taxonómica). Las relaciones dentro del clado son bastante inciertas dado que análisis empleando genes puntuales dan topologías completamente distintas (Selvatti et al. 2015). 
 
 En este proyecto se tienen dos objetivos principales:
    + Ensamblar mitogenomas de *novo* con base en datos obtenidos de secuenciación másiva de la plataforma Illumina, 
