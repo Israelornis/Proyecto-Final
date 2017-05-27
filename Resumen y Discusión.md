@@ -1,8 +1,7 @@
 # Resumen
 
-### Israel Moreno-Contreras*
+* ### Israel Moreno-Contreras*
 #### Ornitología, Facultad de Ciencias, UNAM
-#### Sistemática, Posgrado en Ciencias Biológicas, UNAM
 
 
 ## Ensamblaje *de novo* de mitogenomas y analisis filogenómico del clado Passeroidea (Aves: Passeriformes)
