@@ -1,7 +1,13 @@
 # Resumen
 
 ## Ensamblaje *de novo* de mitogenomas y analisis filogenómico del clado Passeroidea (Aves: Passeriformes)
-Passeroidea es un grupo monofilético de aves passerinas (Orden Passeriformes), el cual se encuentra dentro del clado Passerida (la radiación de aves passerinas más reciente). El clado Passeroidea se caracteriza principalmente debido a su tamaño ya que contiene apróximadamente 20 familias y 1500 especies. Las relaciones dentro del clado son bastante inciertas dado que análisis empleando genes puntuales dan topologías completamente distintas.
+Passeroidea es un grupo monofilético de aves passerinas (Orden Passeriformes), el cual se encuentra dentro del clado Passerida (la radiación de aves passerinas más reciente). El clado Passeroidea se caracteriza principalmente debido a su tamaño ya que contiene apróximadamente 20 familias y 1500 especies. Las relaciones dentro del clado son bastante inciertas dado que análisis empleando genes puntuales dan topologías completamente distintas. 
+
+En este proyecto se tienen dos objetivos principales:
+   + Ensamblar mitogenomas de *novo* con base en datos obtenidos de secuenciación másiva de la plataforma Illumina, por 
+     ejemplo elementos ultra conservados (UCEs).
+   + Obtener una filogenia y una red filogenética de los mitogenomas ensamblados y de los disponibles en bases de datos 
+     correspondientes a los linajes principales de Passeroidea.
 
 Anteriormente (ver Avances 1 y 2) yo estaba interesado en hacer análsis de genética de poblaciones usando los datos genómicos (ddRAD) de *Ammodramus nelsoni* y *Ammodramus caudacutus* de Walsh et al. (2017) disponibles en Dryad. No obstante despues de una revisión en el material suplementario y en el repositorio de Dryad no se encuentran disponibles los barcode, esenciales para los análisis en el programa bioinformático Ipyrad. Bajo esta premisa, decidí cambiar de datos empleando los datos genómicos del género *Piranga*  (RAD-seq) de Manthey et al. (2016), enfocandome en análisis de filogenómica y ya no de genética de poblaciones.
 He tenido algunos problemas con los datos, pero el lunes me quede de ver con Azalea para ver que es lo que está fallando. Espero resolverlo para mediados de la próxima semana.
