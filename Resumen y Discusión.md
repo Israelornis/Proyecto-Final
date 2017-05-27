@@ -6,7 +6,7 @@ Passeroidea es un grupo monofilético de aves passerinas (Orden Passeriformes), 
 En este proyecto se tienen dos objetivos principales:
    + Ensamblar mitogenomas de *novo* con base en datos obtenidos de secuenciación másiva de la plataforma Illumina, por 
      ejemplo elementos ultra conservados (UCEs).
-   + Obtener una filogenia y una red filogenética de los mitogenomas ensamblados y de los disponibles en bases de datos 
+   + Obtener una filogenia y una red filogenética de los mitogenomas ensamblados y de los mitogenomas disponibles en bases de datos 
      correspondientes a los linajes principales de Passeroidea.
 
 ### Métodos
