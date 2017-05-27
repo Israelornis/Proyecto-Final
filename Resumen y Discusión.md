@@ -15,6 +15,8 @@ Como referencia para la construcción de mitogenomas *de novo*, yo utilicé secu
 Los mitogenomas fueron primeramente rotados con el algortimo CSA (Fernandes et al. 2009) para una mejor detección de señal filogenética y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
 El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados.
 Inline-style: 
+![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/RAxML_bipartitions.result.jpg "Logo Title Text 1")
+Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Mitogenomas-Blocks.bmp "Logo Title Text 1")
 
 
