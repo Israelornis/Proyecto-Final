@@ -48,6 +48,8 @@ He tenido algunos problemas con los datos, pero el lunes me quede de ver con Aza
 
 + Bryson, R.W.Jr., B.C Faircloth, W.L.E. Tsai, J.E. McCormack y J. Klicka. 2016. Target enrichment of thousands of ultraconserved elements sheds new light on early relationships within New World sparrows (Aves: Passerellidae). The Auk 133(3):451-458. http://dx.doi.org/10.1642/AUK-16-26.1
 
++ Using the miraEST Assembler for Reliable and Automated mRNA Transcript Assembly and SNP Detection in Sequenced ESTs
+
 + Fernandes, F., L. Pereira y A.T. Freitas. 2009. CSA: An efficient algorithm to improve circular DNA multiple alignment. BMC Bioinformatics 10:230.  https://doi.org/10.1186/1471-2105-10-230
 
 + Gibb, G.C., O. Kardailsky, R.T. Kimball, E.L. Braun y D. Penny. 2007. Mitochondrial Genomes and Avian Phylogeny: Complex Characters and Resolvability without Explosive Radiations. Molecular Biology and Evolution 24(1):269-280. https://doi.org/10.1093/molbev/msl158
