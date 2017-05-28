@@ -15,12 +15,12 @@ En este proyecto se tienen dos objetivos principales:
 
 ### Métodos
 Como referencia para la construcción de mitogenomas *de novo*, yo utilicé secuencias previamente publicadas y obtenidas por el método de secuenciación másiva de la plataforma Illumina, específicamente elementos ultra conservados (UCEs) analizados en detalle por Bryson et al. (2016) y disponibles en GenBank (BioProject SRP073341 , https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP073341). Para la construccion de mitogenomas empleé como caso de estudio sólo tres archivos "fastq" correspondientes a los datos UCEs de las especies *Arremon brunneinucha* (no. acceso SRX1705981), *Atlapetes citirnellus* (no. acceso SRX1705980) y *Amphispiza belli* (ahora *Artemisiospiza belli*, no acceso SRX1705979) y como mapeo de referencia un mitogenoma (en formato "fasta") publicado de una especie filogenéticamente emparentada (*Arremon aurantiirostris*, no. acceso KR780064.1) con las especies que ensamblé.
-
-Para el ensamblaje *de novo* trabajé con el ensamblador MIRA v. 4.0.2 (Chevreux et al. 2004) y con el software MITObim v. 1.9 ()
+Para el ensamblaje *de novo* trabajé con el ensamblador MIRA v. 4.0.2 (Chevreux et al. 2004) y con el software MITObim v. 1.9 (Hahn et al. 2013), utilizando el método de “reconstrucción directa sin mapeo previo” con la estrategia rápida (“--quick”) y poniendo como número máximo de iteraciones 30 (valor por default).
+Una vez obtenidos los mitogenomas ensamblados, estos fueron sometidos a la página online de MITOS
 
 
 Los mitogenomas fueron primeramente rotados con el algortimo CSA (Fernandes et al. 2009) para una mejor detección de señal filogenética y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
-El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados.
+El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados. Para la reconstrucción de la red filogenética entre los taxa estudiados
 Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/RAxML_bipartitions.result.jpg "Logo Title Text 1")
 Inline-style: 
