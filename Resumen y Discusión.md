@@ -16,20 +16,15 @@ En este proyecto se tienen dos objetivos principales:
 ### Métodos
 Como referencia para la construcción de mitogenomas *de novo*, yo utilicé secuencias previamente publicadas y obtenidas por el método de secuenciación másiva de la plataforma Illumina, específicamente elementos ultra conservados (UCEs) analizados en detalle por Bryson et al. (2016) y disponibles en GenBank (BioProject SRP073341 , https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP073341). Para la construccion de mitogenomas empleé como caso de estudio sólo tres archivos "fastq" correspondientes a los datos UCEs de las especies *Arremon brunneinucha* (no. acceso SRX1705981), *Atlapetes citirnellus* (no. acceso SRX1705980) y *Amphispiza belli* (ahora *Artemisiospiza belli*, no acceso SRX1705979) y como mapeo de referencia un mitogenoma (en formato "fasta") publicado de una especie filogenéticamente emparentada (*Arremon aurantiirostris*, no. acceso KR780064.1) con las especies que ensamblé.
 Para el ensamblaje *de novo* trabajé con el ensamblador MIRA v. 4.0.2 (Chevreux et al. 2004) y con el software MITObim v. 1.9 (Hahn et al. 2013), utilizando el método de “reconstrucción directa sin mapeo previo” con la estrategia rápida (“--quick”) y poniendo como número máximo de iteraciones 30 (valor por default).
-Una vez obtenidos los mitogenomas ensamblados, estos fueron sometidos a la página online de MITOS
+Una vez obtenidos los mitogenomas ensamblados, estos fueron sometidos a la página online de MITOS (Bernt et al. 2013) para la anotación y descripción de los mitogenomas ensamblados.
 
-
-Los mitogenomas fueron primeramente rotados con el algortimo CSA (Fernandes et al. 2009) para una mejor detección de señal filogenética y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
+En la reconstrucción filogenética los mitogenomas fueron primeramente rotados con el algortimo CSA (Fernandes et al. 2009) para una mejor detección de señal filogenética y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
 El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados. Para la reconstrucción de la red filogenética entre los taxa estudiados
 Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/RAxML_bipartitions.result.jpg "Logo Title Text 1")
 Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Mitogenomas-Blocks.bmp "Logo Title Text 1")
 
-
-
-Anteriormente (ver Avances 1 y 2) yo estaba interesado en hacer análsis de genética de poblaciones usando los datos genómicos (ddRAD) de *Ammodramus nelsoni* y *Ammodramus caudacutus* de Walsh et al. (2017) disponibles en Dryad. No obstante despues de una revisión en el material suplementario y en el repositorio de Dryad no se encuentran disponibles los barcode, esenciales para los análisis en el programa bioinformático Ipyrad. Bajo esta premisa, decidí cambiar de datos empleando los datos genómicos del género *Piranga*  (RAD-seq) de Manthey et al. (2016), enfocandome en análisis de filogenómica y ya no de genética de poblaciones.
-He tenido algunos problemas con los datos, pero el lunes me quede de ver con Azalea para ver que es lo que está fallando. Espero resolverlo para mediados de la próxima semana.
 
 **Tipo de datos:** Ddatos genómicos del género *Piranga*  (RAD-seq) de Manthey et al. (2016) disponibles en Genbank (https://www.ncbi.nlm.nih.gov/sra/?term=Piranga), con algunos datos descriptivos en Dryad.
 
@@ -44,7 +39,9 @@ He tenido algunos problemas con los datos, pero el lunes me quede de ver con Aza
 | Organizar repositorio | Pendiente |
 |[README](https://github.com/Israelornis/ProyectoFinalBioinf2017-II/blob/master/README.md) | <span style="color:red"> Pendiente</span> |
 
-### Artículos leídos
+### Literatura citada
+
++ Bernt, M., A. Donath, F. Jühling, F. Externbrink, C. Florentzh, G. Fritzsch, J. Pützh y M. Middendorf. 2013. MITOS: Improved de novo metazoan mitochondrial genome annotation. Molecular Phylogenetics and Evolution 69(2):313–319. https://doi.org/10.1016/j.ympev.2012.08.023
 
 + Bryson, R.W.Jr., B.C Faircloth, W.L.E. Tsai, J.E. McCormack y J. Klicka. 2016. Target enrichment of thousands of ultraconserved elements sheds new light on early relationships within New World sparrows (Aves: Passerellidae). The Auk 133(3):451-458. http://dx.doi.org/10.1642/AUK-16-26.1
 
@@ -61,9 +58,3 @@ He tenido algunos problemas con los datos, pero el lunes me quede de ver con Aza
 + Selvatti, A.P., L.P. Gonzaga y C.A. Russo. 2015. A Paleogene origin for crown passerines and the diversification of the Oscines in the New World. Molecular Phylogenetics and Evolution 88:1–15. https://doi.org/10.1016/j.ympev.2015.03.018
 
 + Stamatakis, A. 2014. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics 30(9):1312-1313. https://doi.org/10.1093/bioinformatics/btu033
-
-
-### Datos y análisis
-+ Manthey JD, Campillo LC, Burns KJ, Moyle RG (2016) Data from: Comparison of target-capture and restriction-site associated DNA sequencing for phylogenomics: a test in cardinalid tanagers (Aves, genus: Piranga). Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.j5n06
-
-**Análisis a realizar:** Se realizarán algunos análisis de Filogenómica empleando distintos parametros en Ipryrad: Máxima Verosimilitud, SVD quartets. Se harán gráficas para ver que tanto influyen los parámetros en la obtención de pares de bases.
