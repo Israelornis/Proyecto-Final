@@ -16,7 +16,7 @@ En este proyecto se tienen dos objetivos principales:
 ### Métodos
 Como referencia para la construcción de mitogenomas *de novo*, yo utilicé secuencias previamente publicadas y obtenidas por el método de secuenciación másiva de la plataforma Illumina, específicamente elementos ultra conservados (UCEs) analizados en detalle por Bryson et al. (2016) y disponibles en GenBank (BioProject SRP073341 , https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP073341). Para la construccion de mitogenomas empleé como caso de estudio sólo tres archivos "fastq" correspondientes a los datos UCEs de las especies *Arremon brunneinucha* (no. acceso SRX1705981), *Atlapetes citirnellus* (no. acceso SRX1705980) y *Amphispiza belli* (ahora *Artemisiospiza belli*, no acceso SRX1705979) y como mapeo de referencia un mitogenoma (en formato "fasta") publicado de una especie filogenéticamente emparentada (*Arremon aurantiirostris*, no. acceso KR780064.1) con las especies que ensamblé.
 
-Para el ensamblaje *de novo* trabajé con el ensamblador MIRA v. 4.0.2 ()
+Para el ensamblaje *de novo* trabajé con el ensamblador MIRA v. 4.0.2 (Chevreux et al. 2004) y con el software MITObim v. 1.9 ()
 
 
 Los mitogenomas fueron primeramente rotados con el algortimo CSA (Fernandes et al. 2009) para una mejor detección de señal filogenética y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
@@ -48,11 +48,13 @@ He tenido algunos problemas con los datos, pero el lunes me quede de ver con Aza
 
 + Bryson, R.W.Jr., B.C Faircloth, W.L.E. Tsai, J.E. McCormack y J. Klicka. 2016. Target enrichment of thousands of ultraconserved elements sheds new light on early relationships within New World sparrows (Aves: Passerellidae). The Auk 133(3):451-458. http://dx.doi.org/10.1642/AUK-16-26.1
 
-+ Using the miraEST Assembler for Reliable and Automated mRNA Transcript Assembly and SNP Detection in Sequenced ESTs
++ Chevreux, B., T. Pfisterer, B. Drescher, A.J. Driesel, W.E.G. Müller, T. Wetter y S. Suhai1. 2004. Using the miraEST Assembler for Reliable and Automated mRNA Transcript Assembly and SNP Detection in Sequenced ESTs. Genome Research 14:1147-1159. http://www.genome.org/cgi/doi/10.1101/gr.1917404
 
 + Fernandes, F., L. Pereira y A.T. Freitas. 2009. CSA: An efficient algorithm to improve circular DNA multiple alignment. BMC Bioinformatics 10:230.  https://doi.org/10.1186/1471-2105-10-230
 
 + Gibb, G.C., O. Kardailsky, R.T. Kimball, E.L. Braun y D. Penny. 2007. Mitochondrial Genomes and Avian Phylogeny: Complex Characters and Resolvability without Explosive Radiations. Molecular Biology and Evolution 24(1):269-280. https://doi.org/10.1093/molbev/msl158
+
++ Hahn, C., L. Bachmann y B. Chevreux. 2013. Reconstructing mitochondrial genomes directly from genomic next-generation sequencing reads—a baiting and iterative mapping approach.  Nucleic Acids Research 41(13):e129. https://doi.org/10.1093/nar/gkt371. 
 
 + Katoh, K. y D.M. Standley. 2013. MAAFT Multiple Alignment Software Version 7: Improvements in Performance and Usability. Molecular Biology and Evolution 30(4):772-780. https://doi.org/10.1093/molbev/mst010
 
