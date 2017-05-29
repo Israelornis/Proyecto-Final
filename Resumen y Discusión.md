@@ -25,17 +25,17 @@ El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2
 De acuerdo a la anotación de los genomas ensamblados, para *Arremon brunneinucha* todos los genes fueron ensamblados, al igual que en el caso de *Atlapetes citirnellus*, no obstante para *Amphispiza belli* 7 genes no fueron encontrados (atp8, nad6, trnE, trnG, trnK, trnP, trnT, Figura 1).
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/data/data_output/MITOS/Amphispiza_belli/KR7800641bbbbbb.png "Logo Title Text 1")
 
-Figura 1.
+Figura 1. Mitogenoma anotado de *Amphispiza belli*.
 
 La rotación de mitogenoma en CSA fue claramente exitosa dando un fuerte en la búsqueda de señal filogenética y de esta manera mejorar el alineamiento de mitogenomas para análisis posteriores (Figura 2).
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/data/data_output/CSA/Mitogenomas-Blocks.bmp "Logo Title Text 1")
 
-Figura 2.
+Figura 2. Mitogenomas rotados.
 
-Se puede apreciar que Passeroidea es monofilético y resulta ser una topología completamente resuelta sin politomías. Los linajes más basales  resultaron ser *Padda oryzivora* (Estrildidae) y el género *Prunella* (Prunellidae)
+Se puede apreciar que Passeroidea es monofilético y resulta ser una topología completamente resuelta sin politomías (Figura 3). Los linajes más basales  resultaron ser *Padda oryzivora* (Estrildidae) y el género *Prunella* (Prunellidae).
 
-Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/ML_tree.png "Logo Title Text 1")
+Figura 3. Árbol de máxima verosimilitud del clado Passeroidea.
 Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Mitogenomas-Blocks.bmp "Logo Title Text 1")
 
