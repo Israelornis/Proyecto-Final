@@ -19,8 +19,10 @@ Para el ensamblaje *de novo* trabajé con el ensamblador MIRA v. 4.0.2 (Chevreux
 Una vez obtenidos los mitogenomas ensamblados, estos fueron sometidos a la página online de MITOS (Bernt et al. 2013) para la anotación y descripción de los mitogenomas ensamblados.
 
 En la reconstrucción filogenética los mitogenomas fueron primeramente rotados con el algortimo CSA (Fernandes et al. 2009) para una mejor detección de señal filogenética y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
-El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados. Para la reconstrucción de la red filogenética entre los taxa estudiados use el programa Splits Tree v. 4.0 ().
-La visualización del árbol filogenético así cómo de la red filogenética fue llevada a cabo en el ambiente estadístico en R v. 3.3.1 (R Development Core Team 2016).
+El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados. Para la reconstrucción de la red filogenética entre los taxa estudiados use el programa Splits Tree v. 4.0 (Huson y Bryant 2006). La visualización del árbol filogenético así cómo de la red filogenética fue llevada a cabo en el ambiente estadístico en R v. 3.3.1 (R Development Core Team 2016).
+
+### Resultados y discusión
+Se puede apreciar que Passeroidea es monofilético y resulta ser una topología completamente resuelta sin politomías. Los linajes más basales  resultaron ser *Padda oryzivora* (Estrildidae) y el género *Prunella* (Prunellidae)
 
 Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/RAxML_bipartitions.result.jpg "Logo Title Text 1")
@@ -54,6 +56,8 @@ Inline-style:
 + Gibb, G.C., O. Kardailsky, R.T. Kimball, E.L. Braun y D. Penny. 2007. Mitochondrial Genomes and Avian Phylogeny: Complex Characters and Resolvability without Explosive Radiations. Molecular Biology and Evolution 24(1):269-280. https://doi.org/10.1093/molbev/msl158
 
 + Hahn, C., L. Bachmann y B. Chevreux. 2013. Reconstructing mitochondrial genomes directly from genomic next-generation sequencing reads—a baiting and iterative mapping approach.  Nucleic Acids Research 41(13):e129. https://doi.org/10.1093/nar/gkt371. 
+
++ Huson, D.H. y D. Bryant. 2006. Application of phylogenetic networks in evolutionary studies. Molecular Biology and Evolution 23(2):254-267. https://doi.org/10.1093/molbev/msj030
 
 + Katoh, K. y D.M. Standley. 2013. MAAFT Multiple Alignment Software Version 7: Improvements in Performance and Usability. Molecular Biology and Evolution 30(4):772-780. https://doi.org/10.1093/molbev/mst010
 
