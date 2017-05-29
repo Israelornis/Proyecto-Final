@@ -22,29 +22,30 @@ En la reconstrucción filogenética los mitogenomas fueron primeramente rotados 
 El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados. Para la reconstrucción de la red filogenética entre los taxa estudiados use el programa Splits Tree v. 4.0 (Huson y Bryant 2006). La visualización del árbol filogenético así cómo de la red filogenética fue llevada a cabo en el ambiente estadístico en R v. 3.3.1 (R Development Core Team 2016).
 
 ### Resultados y discusión
-De acuerdo a la anotación de los genomas ensamblados, para *Arremon brunneinucha* todos los genes fueron ensamblados, al igual que en el caso de *Atlapetes citirnellus*, no obstante para *Amphispiza belli* 7 genes no fueron encontrados (atp8, nad6, trnE, trnG, trnK, trnP, trnT, Figura 1).
+De acuerdo a la anotación de los genomas ensamblados, para *Arremon brunneinucha* todos los genes fueron ensamblados, al igual que en el caso de *Atlapetes citirnellus*, no obstante para *Amphispiza belli* 7 genes no fueron encontrados (atp8, nad6, trnE, trnG, trnK, trnP, trnT, **Figura 1**).
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/data/data_output/MITOS/Amphispiza_belli/KR7800641bbbbbb.png "Logo Title Text 1")
 
-Figura 1. Mitogenoma anotado de *Amphispiza belli*.
+**Figura 1.** Mitogenoma anotado de *Amphispiza belli*.
 
-La rotación de mitogenoma en CSA fue claramente exitosa dando un fuerte en la búsqueda de señal filogenética y de esta manera mejorar el alineamiento de mitogenomas para análisis posteriores (Figura 2).
+La rotación de mitogenoma en CSA fue claramente exitosa dando un fuerte en la búsqueda de señal filogenética y de esta manera mejorar el alineamiento de mitogenomas para análisis posteriores (**Figura 2**).
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/data/data_output/CSA/Mitogenomas-Blocks.bmp "Logo Title Text 1")
 
-Figura 2. Mitogenomas rotados.
+**Figura 2.** Mitogenomas rotados.
 
-Se puede apreciar que Passeroidea es monofilético y resulta ser una topología completamente resuelta sin politomías (Figura 3). Los linajes más basales  resultaron ser *Padda oryzivora* (Estrildidae) y el género *Prunella* (Prunellidae). La topología resultante fue acorde a lo propuesto por una filogenia reciente (Selvatti et al. 2015).
+Se puede apreciar que Passeroidea es monofilético y resulta ser una topología completamente resuelta sin politomías (**Figura 3**). Los linajes más basales  resultaron ser *Padda oryzivora* (Estrildidae) y el género *Prunella* (Prunellidae). La topología resultante fue acorde a lo propuesto por una filogenia reciente (Selvatti et al. 2015).
 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/ML_tree.png "Logo Title Text 1")
 
-Figura 3. Árbol de máxima verosimilitud del clado Passeroidea.
+**Figura 3**. Árbol de máxima verosimilitud del clado Passeroidea.
 
 
-La red filogenética fue relativamente consistente con el árbol de máxima verosimilitud. Una diferencia fue que *Atlapetes citrinellus* es más cercano a *Arremon brunneinucha* que a *Amphispiza belli* (Figura 4).
+La red filogenética fue relativamente consistente con el árbol de máxima verosimilitud. Una diferencia fue que *Atlapetes citrinellus* es más cercano a *Arremon brunneinucha* que a *Amphispiza belli* (**Figura 4**). Claramente se observan linajes bien delimitados en la red, consistente con taxonomías actuales, aunque un gran número de familias continuan siendo inexistentes tanto en mitogenomas como en posibles datos Illumina, donde se puedan ensamblar de novo sus mitogenomas, y de está manera tener un resolución más clara sobre las relaciones evolutivas de este grupo de aves.
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Nnet.jpeg "Logo Title Text 1")
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Nnet2.jpeg "Logo Title Text 1")
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Network_zoom_version.jpeg "Logo Title Text 1")
 
-Figura 4. Red filogenética del clado Passeroidea. 
+**Figura 4**. Red filogenética del clado Passeroidea. 
+
 
 ### Literatura citada
 
