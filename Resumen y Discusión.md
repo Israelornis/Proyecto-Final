@@ -25,7 +25,7 @@ El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2
 Se puede apreciar que Passeroidea es monofilético y resulta ser una topología completamente resuelta sin politomías. Los linajes más basales  resultaron ser *Padda oryzivora* (Estrildidae) y el género *Prunella* (Prunellidae)
 
 Inline-style: 
-![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/RAxML_bipartitions.result.jpg "Logo Title Text 1")
+![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/ML_tree.png "Logo Title Text 1")
 Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Mitogenomas-Blocks.bmp "Logo Title Text 1")
 
