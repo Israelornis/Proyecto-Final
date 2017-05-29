@@ -1,0 +1,162 @@
+// load coded according to reference
+// just in case the loading is slow invalidate code 
+loadcodes = function() {
+	$("#code").value = "None"
+	$("#code").load("refcode.py?ref=" + $("#refseqver").val());
+}
+
+setfilename = function() {
+	alert($( "#uploadBtn").value)
+	$("#uploadFile").value = "TEST"; //$( "#uploadBtn").value;
+}
+
+$( function() {
+    // initialize tabs of the advanced options 
+    // and the submit button
+    $( "#tabs" ).tabs();
+    $( "#button-sa,#button-submit,#button-ul" ).button();
+
+/*    // file upload 
+    $('#myFile').fileupload({
+    	dataType: 'json',
+        add: function (e, data) {
+            data.context = $('<button/>').text('Upload')
+                .appendTo(document.body)
+                .click(function () {
+                    data.context = $('<p/>').text('Uploading...').replaceAll($(this));
+                    data.submit();
+                });
+        },
+        done: function (e, data) {
+            data.context.text('Upload finished.');
+        }
+    });
+*/
+
+    // trigger loading of the genetic codes according to the refernce 
+    // when reference is changed or the site is loaded completely  
+    $( "#refseqver" ).on( {"change": loadcodes});
+    $( document ).ready( loadcodes );
+
+    // set file name in the mock upload input
+    mf = document.getElementById("myFile")
+    if( mf != null ){    
+	    mf.onchange = function () {
+    		document.getElementById("uploadFile").value = this.value;
+    	};
+    }   
+	   
+});
+
+
+function validateEmail(email) {
+	var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+	if( !emailReg.test( email ) ) {
+		return false;
+	} else {
+		return true;
+	}
+}
+
+function button01() {
+	
+	if(document.mtdb.email.value =="" || document.mtdb.email.value =="None" ) {
+		document.mtdb.email.value = "None"
+	}else if( ! validateEmail( document.mtdb.email.value ) ){
+		alert("Invalid email adress");
+		return;
+	}
+
+	if(document.mtdb.name.value =="") {
+        	document.mtdb.name.value = "MITOS user"
+	}
+
+ 	if(document.mtdb.myFile.value=="") {
+ 	   	alert("Empty file!")
+ 	   	return; 
+ 	}
+
+	value = parseInt(document.mtdb.code.value, 10)
+ 	if( isNaN( value ) || value < 0 || value > 100 ) {
+ 	   	alert("Code table has not been specified!")
+ 	   	return; 
+ 	}
+
+	// check the values of the number input fields 
+	// - get the value 
+	// - check for unparseable input and range
+	// - reassign parsed number (if e.g. '100xyz' input then 100 is parsed and reassigned)
+
+	// limit evalue to 1000 (to large numbers led to 10^(-e)~=0)
+	value = parseFloat(document.mtdb.evalue.value)
+	if( isNaN( value ) || value < 0 || value > 100 ) {
+		alert("The 'BLAST E-value Exponent' musst be a Number between 0 and 100")
+		return;
+	}
+	document.mtdb.evalue.value = value
+
+	value = parseFloat(document.mtdb.cutoff.value)
+	if( isNaN(value) || value < 0 || value > 100 ) {
+		alert("The 'Cutoff' musst be a Number between 0 and 100.")
+		return;
+	}
+	document.mtdb.cutoff.value = value
+
+	value = parseFloat(document.mtdb.maxovl.value)
+	if( isNaN(value) || value < 0 || value > 100 ) {
+		alert("The 'Maximum Overlap' musst be a Number between 0 and 100.")
+		return;
+	}
+	document.mtdb.maxovl.value = value
+
+	value = parseFloat(document.mtdb.fragovl.value)
+	if( isNaN(value) || value < 0 || value > 100 ) {
+		alert("The 'Fragment Overlap' musst be a Number between 0 and 100.")
+		return;
+	}
+	document.mtdb.fragovl.value = value
+
+	value = parseFloat(document.mtdb.clipfac.value)
+	if( isNaN(value) || value < 1) {
+		alert("The 'Clipping Factor' musst be a Number and at least 1")
+		return;
+	}
+	document.mtdb.clipfac.value = value
+
+	value = parseFloat(document.mtdb.fragfac.value)
+	if(isNaN(value) || value < 1) {
+		alert("The 'Fragment Quality Factor' musst be a Number and at least 1")
+		return;
+	}
+	document.mtdb.fragfac.value = value
+
+	value = parseFloat(document.mtdb.finovl.value)
+	if(isNaN(value) || value < 0) {
+		alert("The 'Final Maximum Overlap' musst be a Number and at least 0")
+		return;
+	}
+	document.mtdb.finovl.value = value
+
+	document.mtdb.submit()
+}
+
+var simple = 1
+
+function showall() {
+	if (simple == 1) {
+		$(".advanced_opt").fadeIn(300)
+		simple = 0
+//		$("#advance").toggleClass("simple advanced")
+		$( "#button-sa" ).button( "option", "label", "simple" );
+	}
+	else {
+		$(".advanced_opt").fadeOut(300)
+		simple = 1
+//		$("#advance").toggleClass("simple advanced")
+		$( "#button-sa" ).button( "option", "label", "advanced" );
+	}
+	
+}
+
+
+

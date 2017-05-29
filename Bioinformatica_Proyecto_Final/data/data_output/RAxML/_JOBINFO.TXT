@@ -1,0 +1,14 @@
+Task\ label=Verosimilitud
+Task\ ID=1196075
+Tool=RAXMLHPC2_TGB
+created\ on=2017-05-26 09:49:39.0
+JobHandle=NGBW-JOB-RAXMLHPC2_TGB-245EEBA8C3DB472E8130180CBC0F4890
+resource=comet
+User\ ID=101051
+User\ Name=Guest-1495816542510
+email=1495816542510
+
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=24
+JOBID=9420329
