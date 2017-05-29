@@ -18,10 +18,10 @@ Como referencia para la construcción de mitogenomas *de novo*, yo utilicé secu
 Para el ensamblaje *de novo* trabajé con el ensamblador MIRA v. 4.0.2 (Chevreux et al. 2004) y con el software MITObim v. 1.9 (Hahn et al. 2013), utilizando el método de “reconstrucción directa sin mapeo previo” con la estrategia rápida (“--quick”) y poniendo como número máximo de iteraciones 30 (valor por default).
 Una vez obtenidos los mitogenomas ensamblados, estos fueron sometidos a la página online de MITOS (Bernt et al. 2013) para la anotación y descripción de los mitogenomas ensamblados.
 
-Datos descriptivos de los pares de bases recuperados en los genomas, así cómo visualización del árbol filogenético fueron analizado en el ambiente estadístico en R v. 3.3.1 (R Development Core Team 2016).
-
 En la reconstrucción filogenética los mitogenomas fueron primeramente rotados con el algortimo CSA (Fernandes et al. 2009) para una mejor detección de señal filogenética y posteriormenten alineados en MAFFT v. 7.222 (Katoh y Standley 2013).
-El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados. Para la reconstrucción de la red filogenética entre los taxa estudiados
+El árbol filogenético fue construido con máxima verosimilitud en RAxML v. 8.2.4 (Stamatakis 2014) usando como outgroup un ave suboscine (*Cnemotriccus fuscatus*) con un modelo evolutivo GTRGAMMA y con 1000 pseudoreplicaciones para agregar soporte estadístico a los clados formados. Para la reconstrucción de la red filogenética entre los taxa estudiados use el programa Splits Tree v. 4.0 ().
+La visualización del árbol filogenético así cómo de la red filogenética fue llevada a cabo en el ambiente estadístico en R v. 3.3.1 (R Development Core Team 2016).
+
 Inline-style: 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/RAxML_bipartitions.result.jpg "Logo Title Text 1")
 Inline-style: 
