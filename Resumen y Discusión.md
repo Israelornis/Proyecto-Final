@@ -32,26 +32,19 @@ La rotación de mitogenoma en CSA fue claramente exitosa dando un fuerte en la b
 
 Figura 2. Mitogenomas rotados.
 
-Se puede apreciar que Passeroidea es monofilético y resulta ser una topología completamente resuelta sin politomías (Figura 3). Los linajes más basales  resultaron ser *Padda oryzivora* (Estrildidae) y el género *Prunella* (Prunellidae).
+Se puede apreciar que Passeroidea es monofilético y resulta ser una topología completamente resuelta sin politomías (Figura 3). Los linajes más basales  resultaron ser *Padda oryzivora* (Estrildidae) y el género *Prunella* (Prunellidae). La topología resultante fue acorde a lo propuesto por una filogenia reciente (Selvatti et al. 2015).
 
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/ML_tree.png "Logo Title Text 1")
+
 Figura 3. Árbol de máxima verosimilitud del clado Passeroidea.
-Inline-style: 
-![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Mitogenomas-Blocks.bmp "Logo Title Text 1")
 
 
-**Tipo de datos:** Ddatos genómicos del género *Piranga*  (RAD-seq) de Manthey et al. (2016) disponibles en Genbank (https://www.ncbi.nlm.nih.gov/sra/?term=Piranga), con algunos datos descriptivos en Dryad.
+La red filogenética fue relativamente consistente con el árbol de máxima verosimilitud. Una diferencia fue que *Atlapetes citrinellus* es más cercano a *Arremon brunneinucha* que a *Amphispiza belli*
+![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Nnet.jpeg "Logo Title Text 1")
+![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Nnet2.jpeg "Logo Title Text 1")
+![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Network_zoom_version.jpeg "Logo Title Text 1")
 
-| Actividad     | Estado |
-| ------------- |:-------------:|
-| Descargar datos del repositorio Dryad     | Listo  |
-| Montar un volumen en docker para analizar los datos     | Listo   | 
-| Instalar ipyrad | Listo |   
-| Instalar RAxML | Listo |  
-| Instalar PAUP | Listo |
-| Análisis de máxima verosimilitud | Pendiente |  
-| Organizar repositorio | Pendiente |
-|[README](https://github.com/Israelornis/ProyectoFinalBioinf2017-II/blob/master/README.md) | <span style="color:red"> Pendiente</span> |
+
 
 ### Literatura citada
 
