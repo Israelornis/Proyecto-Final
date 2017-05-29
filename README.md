@@ -29,7 +29,7 @@ Dentro del directorio "data" se encuentra la carpeta "raw_genetic_data" que cont
 #### Output data
 Dentro de esta carpeta se encuentra todos los outputs (resultados) de los programa CSA, MAFFT, MITOS, RAxML y Splits Tree, cada uno separada por su respectiva carpeta.
 
-### Filtered dat
+#### Filtered dat
 Esta carpeta contiene el fasta de los mitogenomas descargados con los mitogenomas ensamblados.
 
 #### Raw genetic data
