@@ -39,12 +39,12 @@ Se puede apreciar que Passeroidea es monofilético y resulta ser una topología 
 Figura 3. Árbol de máxima verosimilitud del clado Passeroidea.
 
 
-La red filogenética fue relativamente consistente con el árbol de máxima verosimilitud. Una diferencia fue que *Atlapetes citrinellus* es más cercano a *Arremon brunneinucha* que a *Amphispiza belli*
+La red filogenética fue relativamente consistente con el árbol de máxima verosimilitud. Una diferencia fue que *Atlapetes citrinellus* es más cercano a *Arremon brunneinucha* que a *Amphispiza belli* (Figura 4).
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Nnet.jpeg "Logo Title Text 1")
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Nnet2.jpeg "Logo Title Text 1")
 ![alt text](https://github.com/Israelornis/Proyecto-Final/blob/master/Bioinformatica_Proyecto_Final/figures/Network_zoom_version.jpeg "Logo Title Text 1")
 
-
+Figura 4. Red filogenética del clado Passeroidea. 
 
 ### Literatura citada
 
